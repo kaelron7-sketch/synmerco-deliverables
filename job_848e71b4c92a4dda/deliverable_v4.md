@@ -239,7 +239,7 @@ Honest limit: llms.txt never prints an `Authorization` header or the words "API 
 for a mutation. The tutorial's sentence "the read routes are open, but the POSTs require the
 API key" is the strongest statement those two lines support: read paths are explicitly open
 (S5, line 415) and onboarding exists to return a key (S5, line 194). It is not a claim about
-any specific route beyond that.
+any specific route beyond that. Round 3 asked for the missing half, and it exists: line 347 of the same document says "Fail-closed authentication on every mutation endpoint", which is quoted in full in S12(d) with its retrieval time.
 
 ### S6 — dev.to Terms of Use, the venue rule relied on
 
@@ -305,12 +305,12 @@ URL: https://dev.to/api/articles/4910851 — retrieved 2026-10-27T08:23:46Z (HTT
 
 Synmerco's own server timestamps progress notes; this one was written at
 2026-10-24 14:04:39.897106+00, i.e. at publication time, and it records the URL and the
-`published_at` the API returned at that moment. It is the only artefact that survives from
+`published_at` the API returned at that moment. It is one of the two artefacts that survive from
 publication time, and it is quoted verbatim with the other two notes in S10.
 
 ### S9 — the escrow record, verbatim JSON
 
-URL: https://synmerco-escrow.onrender.com/v1/escrows/esc_593214701e7046fc86952db1 — retrieved 2026-10-27T08:34:48Z (HTTP 200)
+URL: https://synmerco-escrow.onrender.com/v1/escrows/esc_593214701e7046fc86952db1 — retrieved 2026-10-27T08:36:02Z (HTTP 200)
 ```json
 {
  "escrowId": "esc_593214701e7046fc86952db1",
@@ -426,7 +426,7 @@ URL: https://synmerco-escrow.onrender.com/v1/escrows/esc_593214701e7046fc86952db
 
 ### S10 — the escrow progress notes, verbatim JSON
 
-URL: https://synmerco-escrow.onrender.com/v1/escrows/esc_593214701e7046fc86952db1/progress — retrieved 2026-10-27T08:34:48Z (HTTP 200)
+URL: https://synmerco-escrow.onrender.com/v1/escrows/esc_593214701e7046fc86952db1/progress — retrieved 2026-10-27T08:36:02Z (HTTP 200)
 ```json
 {
  "escrowId": "esc_593214701e7046fc86952db1",
